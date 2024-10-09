@@ -1,0 +1,13 @@
+.note-container{
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.note-container input, textarea, button{
+    margin: 10px;
+}

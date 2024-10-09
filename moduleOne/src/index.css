@@ -1,0 +1,6 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: radial-gradient(circle, #2D3436, black);
+    height: 100vh;
+    margin: 0;
+}

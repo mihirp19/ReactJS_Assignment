@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4c00c2, #1bc3ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.app {
+  background-color: #151a30;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-text {
+  background: linear-gradient(to right, #a400fc, #803aff);
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  width: 75%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.delete-btn {
+  color: #ff4d4d;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  margin-right: 10px;
+  background-color: #2a2f50;
+  color: white;
+}
+
+.add-btn {
+  background: linear-gradient(to right, #a400fc, #803aff);
+  color: white;
+  border-radius: 10px;
+}
+
+.delete-list-btn {
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+}

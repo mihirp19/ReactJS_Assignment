@@ -1,0 +1,19 @@
+.app {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.moveable-element {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* Center the element on the cursor */
+}
